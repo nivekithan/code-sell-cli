@@ -1,0 +1,17 @@
+{
+  "name": "code-sell-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "esbuild": "node config/esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.3.0",
+    "esbuild": "^0.12.15",
+    "typescript": "^4.3.5"
+  }
+}
