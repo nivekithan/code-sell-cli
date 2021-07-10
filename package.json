@@ -2,16 +2,33 @@
   "name": "code-sell-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "esbuild": "node config/esbuild.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "email": "nivekithan363@gmail.com",
+    "name": "Nivekithan S",
+    "url": "https://www.polywork.com/nivekithan"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.3.0",
+    "@types/node-fetch": "^2.5.11",
+    "@types/yargs": "^17.0.2",
     "esbuild": "^0.12.15",
     "typescript": "^4.3.5"
-  }
+  },
+  "main": "build/index.js",
+  "bin": {
+    "ccode": "build/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "read-pkg": "^6.0.0",
+    "yargs": "^17.0.1"
+  },
+  "type": "module"
 }
